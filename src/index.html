@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SA</title>
+    <link rel="stylesheet" href="./styles/destyle.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <template id="hour-template">
+      <div class="hour"></div>
+    </template>
+    <template id="block-template">
+      <div class="block"></div>
+    </template>
+    <template id="row-template">
+      <div class="row"></div>
+    </template>
+    <main>
+      <p>Initial</p>
+      <div class="hours"></div>
+      <div class="table" id="initial-table"></div>
+      <p>Optimized</p>
+      <div class="hours"></div>
+      <div class="table" id="optimized-table"></div>
+      <div class="time-taken" id="time-taken"></div>
+    </main>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>

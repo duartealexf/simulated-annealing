@@ -1,0 +1,15 @@
+{
+  "name": "simulated-annealing",
+  "version": "1.0.0",
+  "description": "Mini project that uses Simulate Annealing tehnique to optimize a scheduling table.",
+  "main": "main.js",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "lite-server": "node_modules/.bin/lite-server",
+    "start": "npm run lite-server -- --baseDir=src"
+  },
+  "author": "Alexandre Fogaça Duarte <duartealexf@gmail.com>",
+  "license": "MIST"
+}
