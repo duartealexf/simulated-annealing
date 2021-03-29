@@ -127,8 +127,8 @@ const worker = new Worker("scripts/worker.js");
 worker.onmessage = (message) => {
   if (message.data.isFinal) {
     reportTimeTaken();
-    renderTable(message.data.value, optimizedTable);
   }
+  renderTable(message.data.value, optimizedTable);
 };
 
 worker.postMessage([datasource, 1000]);

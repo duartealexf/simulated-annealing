@@ -6,6 +6,8 @@ Initially, the table contains one event per row. An event has a starting and end
 
 It optimizes and moves the events up and down (it does not change start end end values) until it finds the solution that is closer to best.
 
+![Demo](demo.png "Demo")
+
 Rules to find best solution, and how the acceptance function treats each solution:
 
 - Events cannot overlap: acceptance function places a huge penalty for each overlap.
@@ -27,4 +29,4 @@ It runs the optimization in a WebWorker so it does not block the main thread. As
 
 ## Credits
 
-The code for the Simulate Annealing algorithm is credited to [saveryanov/simulated-annealing repository](https://github.com/saveryanov/simulated-annealing).
+The code for the Simulate Annealing algorithm is credited to [saveryanov/simulated-annealing](https://github.com/saveryanov/simulated-annealing).
